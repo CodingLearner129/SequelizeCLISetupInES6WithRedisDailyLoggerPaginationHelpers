@@ -1,0 +1,12 @@
+[2024-03-08 12:56:03] ERROR: client.Del is not a function
+[2024-03-08 12:56:03] ERROR: TypeError: client.Del is not a function
+    at Module.del (file:///C:/xampp/htdocs/newSetup1/helpers/redis.js:52:29)
+    at file:///C:/xampp/htdocs/newSetup1/app.js:150:32
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\newSetup1\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\xampp\htdocs\newSetup1\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\xampp\htdocs\newSetup1\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\newSetup1\node_modules\express\lib\router\layer.js:95:5)
+    at C:\xampp\htdocs\newSetup1\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\xampp\htdocs\newSetup1\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\xampp\htdocs\newSetup1\node_modules\express\lib\router\index.js:280:10)
+    at C:\xampp\htdocs\newSetup1\node_modules\body-parser\lib\read.js:137:5
