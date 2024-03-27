@@ -14,7 +14,7 @@ export const getPagingData = (dataWithCount, page, limit) => {
         const currentPage = page ? +page : 0;
         const pageCount = Math.ceil(totalResult / limit);
         let nextPage = currentPage + 1;
-        if (pageCount <= nextPage) {
+        if (pageCount < nextPage) {
             nextPage = 0; // means no more pages found
         }
         return { totalResult, result, pageCount, currentPage, nextPage };
